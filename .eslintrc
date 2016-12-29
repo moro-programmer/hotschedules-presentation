@@ -1,0 +1,15 @@
+---
+"extends":
+  - "airbnb"
+
+"rules":
+  "quotes": [2, "single", { "avoidEscape": true }]
+  "indent": ["error", 4]
+  "react/jsx-indent": ["error", 4]
+  "jsx-quotes": ["error", "prefer-single"]
+  "max-len": ["warn", 100]
+  "comma-dangle": ["error", "never"]
+
+"env":
+  "browser": true,
+  "node": true
