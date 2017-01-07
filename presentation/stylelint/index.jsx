@@ -26,16 +26,12 @@ export default [
         Why
     </Heading>
         <List>
-            <ListItem> приведення css до одного стилю</ListItem>
+            <ListItem>Strict rules based on our style code convention</ListItem>
             <ListItem>Knowledge sharing (team leads, seniors)</ListItem>
             <ListItem>Team leads spend time, it can be checked by linter</ListItem>
-            <ListItem>скорочення часу на навчання juniors</ListItem>
-            <ListItem> Catch errors: e.g. invalid hex colors, indistinguishable colors, or overriding shorthand properties.</ListItem>
-            <ListItem>Control what languages features can be used: e.g. whitelisting specific units, properties and functions, or disallowing certain selector types.</ListItem>
-            <ListItem>Support for the latest CSS syntax: Including custom properties, range context for media features, calc() and nesting.</ListItem>
-            <ListItem>Understands CSS-like syntaxes: The linter is powered by PostCSS, so it understands any syntax that PostCSS can parse, including SCSS, SugarSS, and experimental support for Less.</ListItem>
-            <ListItem>Support for plugins: It's easy to create your own rules and add them to the linter.</ListItem>
-            <ListItem>Automatically fix some stylistic warnings: By using stylefmt which supports stylelint configuration files. </ListItem>
+            <ListItem>Can help decrease time for teaching new members</ListItem>
+            <ListItem>It has about 150 plugins</ListItem>
+            <ListItem>Automatically fix some stylistic warnings (stylefmt)</ListItem>
         </List>
     </Slide>
 ];

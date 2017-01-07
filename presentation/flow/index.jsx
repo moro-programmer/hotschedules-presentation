@@ -1,5 +1,8 @@
 import React from 'react';
 import { Slide, Layout, Fill, Fit, Image, Heading, List, ListItem } from 'spectacle';
+import CodeSlide from 'spectacle-code-slide';
+
+const flowCode = require('raw!./flow.example');
 
 export default [
     <Slide transition={['zoom']} bgColor='primary'>
@@ -27,5 +30,14 @@ export default [
             <ListItem>Flow-typed - check external libraries</ListItem>
             <ListItem>Good integration with atom</ListItem>
         </List>
-    </Slide>
+    </Slide>,
+
+    <CodeSlide
+      key='1'
+      lang='js'
+      transition={['zoom']}
+      code={flowCode}
+      className='code-slide'
+      ranges={[{ loc: [0, 270], title: 'Flow example' }]}
+    />
 ];

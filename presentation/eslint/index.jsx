@@ -28,9 +28,9 @@ export default [
             <ListItem>Strict rules</ListItem>
             <ListItem>Knowledge sharing (team leads, seniors)</ListItem>
             <ListItem>Team leads spend time, it can be checked by linter</ListItem>
-            <ListItem>простіше отримати помилку від лінтера ніж від team lead після перегляду коду</ListItem>
-            <ListItem>скорочення часу на навчання juniors</ListItem>
-            <ListItem>можливість пофіксити прості помилки за допомогою команди --fix</ListItem>
+            <ListItem>It's much easier to get an error from linter than from human</ListItem>
+            <ListItem>Can help decrease time for teaching new members</ListItem>
+            <ListItem>Can fix simple errors automatically (parameter --fix) </ListItem>
         </List>
     </Slide>
 ];

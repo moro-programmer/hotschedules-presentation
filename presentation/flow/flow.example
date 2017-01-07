@@ -1,0 +1,20 @@
+/* @flow */
+
+//functions
+function sumNumbers(items: number[]): number {
+  return items.reduce((item,sum)=> sum+=item);
+}
+
+//variables
+const iCanBeAnything: any = 'LALA' + 2;
+const messages: Array<string> = ['hello', 'world', '!'];
+
+//type aliases
+type T = number;
+var x: T = 0;
+
+//generics
+type GenericObject<T> = { key: T };
+var numberT: GenericObject<number> = { key: 123 };
+var stringT: GenericObject<string> = { key: 'Preethi' };
+var arrayT: GenericObject<Array<number>> = { key: [1, 2, 3] }

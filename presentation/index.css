@@ -1,0 +1,19 @@
+.code-slide>h1 {
+    border: none !important;
+    margin: 0;
+    top: 0 !important;
+    padding: 0 !important;
+}
+
+.code-slide pre {
+    padding-top: 15% !important;
+    font-size: 0.6em;
+}
+
+.spectacle-slide {
+    background: #2d2d2d !important;
+}
+
+.spectacle-slide a {
+  color : wheat;
+}

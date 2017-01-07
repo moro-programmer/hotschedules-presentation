@@ -25,20 +25,12 @@ export default [
             Why
         </Heading>
         <List>
-            <ListItem>використовувати з нашими компонентами</ListItem>
-            <ListItem>правильніше написання компонентів тому що не дасть перевантажувати класи в контейнері</ListItem>
-            <ListItem>можна видалити клас для основного блоку який використовуємо як префікс</ListItem>
-        </List>
-    </Slide>,
-
-    <Slide transition={['zoom']} bgColor='primary' textColor='white'>
-        <Heading size={5} textColor='white'>
-            How
-        </Heading>
-        <List>
-            <ListItem>Postcss plugin</ListItem>
-            <ListItem>.module.cscs suffix</ListItem>
-            <ListItem>Convert .name =&gt name___32osj</ListItem>
+            <ListItem>No more conflicts (unique class names).</ListItem>
+            <ListItem>No global scope.</ListItem>
+            <ListItem>Modular and reusable CSS.</ListItem>
+            <ListItem>We can start using it for our components</ListItem>
+            <ListItem>Remove ability to reload class names in containers</ListItem>
+            <ListItem>Remove wrapper classes from our components</ListItem>
         </List>
     </Slide>
 ];

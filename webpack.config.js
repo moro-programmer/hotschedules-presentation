@@ -65,5 +65,8 @@ module.exports = {
                 loader: "url-loader?mimetype=image/jpg",
                 include: path.join(__dirname, "assets")
             }]
-    }
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx', '.es6', '.scss', '.css'],
+    },
 };

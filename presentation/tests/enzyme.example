@@ -1,0 +1,13 @@
+import React from 'react';
+import { expect } from 'chai';
+import { shallow } from 'enzyme';
+import IconPanel from './IconPanel';
+
+describe('component <IconPanel />', () => {
+
+    it('should have an icon and text block', () => {
+        const item = shallow(<IconPanel icon='smile'/>);
+        expect(item.find('.text-block').length).to.equal(1);
+        expect(item.find('.icon-block').length).to.equal(1);
+    });
+});

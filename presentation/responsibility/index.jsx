@@ -21,9 +21,11 @@ export default [
         Why
     </Heading>
         <List>
-            <ListItem>отпримувати актуальну інформацію по технологіях які ми використовуємо</ListItem>
-            <ListItem>css (code conventions, style, rules, stylelint configuration, news)</ListItem>
-            <ListItem>eslint (add code conventions to eslint config, news, modern rules)</ListItem>
+            <ListItem>Helps to share information about latest changes</ListItem>
+            <ListItem>Helps to keep our tools configs up-to-date</ListItem>
+            <ListItem>Css (code conventions, style, rules, stylelint configuration)</ListItem>
+            <ListItem>ESlint (add code conventions to eslint config, modern rules)</ListItem>
+            <ListItem>PostCSS (add useful plugins, extract settings to config)</ListItem>
         </List>
     </Slide>
 ];

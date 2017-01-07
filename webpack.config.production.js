@@ -47,5 +47,8 @@ module.exports = {
             test: /\.svg$/,
             loader: "url?limit=10000&mimetype=image/svg+xml"
         }]
-    }
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx', '.es6', '.scss', '.css'],
+    },
 };

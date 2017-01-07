@@ -25,10 +25,9 @@ export default [
         Why
     </Heading>
         <List>
-            <ListItem>Split bundle</ListItem>
-            <ListItem>Extract vendor libs</ListItem>
             <ListItem>Migrate to webpack 2</ListItem>
             <ListItem>Tree Shaking </ListItem>
+            <ListItem>Extract vendor libs</ListItem>
         </List>
     </Slide>
 ];

@@ -15,9 +15,7 @@ export default [
                 <Heading fit lineHeight={3} style={{ marginLeft: 20 }}>StoryBook</Heading>
             </Fill>
         </Layout>
-        <Heading size={5} textColor='white'>
-        UI Development Environment You'll {String.fromCharCode('E005')} to use
-      </Heading>
+        <Heading size={5} textColor='white'>UI Development Environment</Heading>
     </Slide>,
 
     <Slide transition={['zoom']} bgColor='primary' textColor='white' key='10'>
@@ -25,11 +23,10 @@ export default [
         Why
     </Heading>
         <List>
-            <ListItem>повний список компонентів</ListItem>
-            <ListItem>New team members can get familiar with the components </ListItem>
-            <ListItem>всі варіанти використання</ListItem>
-            <ListItem>приклади як з ними працювати</ListItem>
-            <ListItem>You can work on React components without app</ListItem>
+            <ListItem>Full list of our components</ListItem>
+            <ListItem>New team members can get familiar with the components</ListItem>
+            <ListItem>All use cases</ListItem>
+            <ListItem>You can work on React components without any app</ListItem>
             <ListItem>Hot module replacement</ListItem>
             <ListItem>Extendable as required</ListItem>
         </List>

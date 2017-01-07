@@ -1,5 +1,9 @@
 import React from 'react';
 import { Slide, Layout, Fill, Fit, Image, Heading, List, ListItem } from 'spectacle';
+import CodeSlide from 'spectacle-code-slide';
+
+const jestCode = require('raw!./jest.example');
+const enzymeCode = require('raw!./enzyme.example');
 
 export default [
     <Slide transition={['zoom']} bgColor='primary' key='1'>
@@ -31,13 +35,30 @@ export default [
     </Slide>,
 
     <Slide transition={['zoom']} bgColor='primary' textColor='white' key='2'>
-        <Heading size={5} textColor='white'>
-        Utils
-    </Heading>
+        <Heading size={5} textColor='white'>Tools</Heading>
         <List>
-            <ListItem>Enzyme (airbnb)</ListItem>
-            <ListItem>Jest</ListItem>
-            <ListItem>Karma</ListItem>
+            <ListItem>Enzyme (JavaScript Testing utility for React)</ListItem>
+            <ListItem>Jest (JavaScript testing framework)</ListItem>
+            <ListItem>Karma (Test Runner for Javascript)</ListItem>
+            <ListItem>Istanbul (Code coverage tool)</ListItem>
         </List>
-    </Slide>
+    </Slide>,
+
+    <CodeSlide
+      key='0'
+      lang='js'
+      transition={['zoom']}
+      code={enzymeCode}
+      className='code-slide'
+      ranges={[{ loc: [0, 270], title: 'Enzyme test example' }]}
+    />,
+
+    <CodeSlide
+      key='1'
+      lang='js'
+      transition={['zoom']}
+      code={jestCode}
+      className='code-slide'
+      ranges={[{ loc: [0, 270], title: 'Jest snapshot test example' }]}
+    />
 ];
