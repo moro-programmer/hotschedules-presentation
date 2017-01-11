@@ -25,12 +25,13 @@ export default [
             Why
         </Heading>
         <List>
-            <ListItem>Strict rules</ListItem>
+            <ListItem>Strict rules (airbnb code style)</ListItem>
             <ListItem>Knowledge sharing (team leads, seniors)</ListItem>
             <ListItem>Team leads spend time, it can be checked by linter</ListItem>
-            <ListItem>It's much easier to get an error from linter than from human</ListItem>
+            <ListItem>It&amp;s much easier to get an error from linter than from human</ListItem>
             <ListItem>Can help decrease time for teaching new members</ListItem>
             <ListItem>Can fix simple errors automatically (parameter --fix) </ListItem>
+            <ListItem>.editorconfig file</ListItem>
         </List>
     </Slide>
 ];

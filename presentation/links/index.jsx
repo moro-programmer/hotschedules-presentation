@@ -53,6 +53,11 @@ export default [
                         </Link>
                     </ListItem>
                     <ListItem>
+                        <Link target='_blank' href='https://github.com/airbnb/javascript'>
+                          Airbnb code style guide
+                        </Link>
+                    </ListItem>
+                    <ListItem>
                         <Link target='_blank' href='https://medium.freecodecamp.com/why-use-static-types-in-javascript-part-1-8382da1e0adb#.53j3kn8do'>
                           Why use static types in JavaScript?
                         </Link>
