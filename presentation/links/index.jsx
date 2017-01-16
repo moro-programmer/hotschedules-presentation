@@ -18,8 +18,8 @@ export default [
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link target='_blank' href='https://karma-runner.github.io/1.0/index.html'>
-                          Karma home page
+                        <Link target='_blank' href='https://mochajs.org/'>
+                          Mocha home page
                         </Link>
                     </ListItem>
                     <ListItem>

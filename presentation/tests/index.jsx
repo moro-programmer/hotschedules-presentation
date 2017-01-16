@@ -39,7 +39,7 @@ export default [
         <List>
             <ListItem>Enzyme (JavaScript Testing utility for React)</ListItem>
             <ListItem>Jest (JavaScript testing framework)</ListItem>
-            <ListItem>Karma (Test Runner for Javascript)</ListItem>
+            <ListItem>Mocha (Simple, flexible, fun javascript test framework)</ListItem>
             <ListItem>Istanbul (Code coverage tool)</ListItem>
         </List>
     </Slide>,
