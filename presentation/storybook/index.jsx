@@ -25,10 +25,10 @@ export default [
         <List>
             <ListItem>Full list of our components</ListItem>
             <ListItem>New team members can get familiar with the components</ListItem>
-            <ListItem>All use cases</ListItem>
+            <ListItem>Demonstrating different use cases</ListItem>
             <ListItem>You can work on React components without any app</ListItem>
             <ListItem>Hot module replacement</ListItem>
-            <ListItem>Extendable as required</ListItem>
+            <ListItem>Extendable if needed</ListItem>
         </List>
     </Slide>
 ];

@@ -29,7 +29,7 @@ export default [
             <ListItem>No global scope.</ListItem>
             <ListItem>Modular and reusable CSS.</ListItem>
             <ListItem>We can start using it for our components</ListItem>
-            <ListItem>Remove ability to reload class names in containers</ListItem>
+            <ListItem>Remove ability to override class names in containers</ListItem>
             <ListItem>Remove wrapper classes from our components</ListItem>
         </List>
     </Slide>

@@ -23,7 +23,7 @@ export default [
         </Heading>
         <List>
             <ListItem>There is a lot of legacy code</ListItem>
-            <ListItem>There are a lot of code generations</ListItem>
+            <ListItem>There are several code generations</ListItem>
             <ListItem>Common problem - low code quality</ListItem>
             <ListItem>How can we fix it ?</ListItem>
         </List>

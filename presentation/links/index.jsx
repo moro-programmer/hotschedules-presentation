@@ -13,11 +13,6 @@ export default [
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link target='_blank' href='https://facebook.github.io/jest/'>
-                          Jest home page
-                        </Link>
-                    </ListItem>
-                    <ListItem>
                         <Link target='_blank' href='https://mochajs.org/'>
                           Mocha home page
                         </Link>
@@ -101,7 +96,24 @@ export default [
         <Layout>
             <Fill>
                 <Link target='_blank' href='https://github.com/moro-programmer/hotschedules-presentation'>
-                    <Heading lineHeight={1} style={{ marginLeft: 20 }}>Presentation source</Heading>
+                    <Heading
+                      lineHeight={1}
+                      size={4}
+                      textColor='white'
+                      style={{ marginLeft: 20 }}
+                    >
+                      Presentation source
+                    </Heading>
+                </Link>
+                <Link target='_blank' href='https://github.com/moro-programmer/hotschedules-presentation-example'>
+                    <Heading
+                      lineHeight={1}
+                      size={4}
+                      textColor='white'
+                      style={{ marginLeft: 20 }}
+                    >
+                      Presentation example source
+                    </Heading>
                 </Link>
             </Fill>
         </Layout>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Slide, Layout, Fill, Fit, Image, Heading, List, ListItem } from 'spectacle';
 import CodeSlide from 'spectacle-code-slide';
 
-const jestCode = require('raw!./jest.example');
+// const jestCode = require('raw!./jest.example');
 const enzymeCode = require('raw!./enzyme.example');
 
 export default [
@@ -38,7 +38,7 @@ export default [
         <Heading size={5} textColor='white'>Tools</Heading>
         <List>
             <ListItem>Enzyme (JavaScript Testing utility for React)</ListItem>
-            <ListItem>Jest (JavaScript testing framework)</ListItem>
+            {/* <ListItem>Jest (JavaScript testing framework)</ListItem> */}
             <ListItem>Mocha (Simple, flexible, fun javascript test framework)</ListItem>
             <ListItem>Istanbul (Code coverage tool)</ListItem>
         </List>
@@ -51,14 +51,5 @@ export default [
       code={enzymeCode}
       className='code-slide'
       ranges={[{ loc: [0, 270], title: 'Enzyme test example' }]}
-    />,
-
-    <CodeSlide
-      key='1'
-      lang='js'
-      transition={['zoom']}
-      code={jestCode}
-      className='code-slide'
-      ranges={[{ loc: [0, 270], title: 'Jest snapshot test example' }]}
     />
 ];

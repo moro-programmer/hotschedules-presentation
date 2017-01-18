@@ -26,8 +26,7 @@ export default [
         <List>
             <ListItem>Contains a lot of useful plugins (we use only auto-prefix)</ListItem>
             <ListItem>Postcss-flexbugs-fixes - tries to fix all of flexbug's issues</ListItem>
-            <ListItem>Cssmodules - solves global css problem</ListItem>
-            <ListItem>CssNext - helps you to use the latest CSS syntax today</ListItem>
+            <ListItem>CssNext - allows using the latest CSS syntax today</ListItem>
         </List>
     </Slide>
 ];
